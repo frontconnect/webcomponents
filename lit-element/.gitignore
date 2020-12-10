@@ -1,0 +1,9 @@
+.idea
+node_modules
+tmp
+build
+config
+*.d.ts
+*.js
+*.js.map
+

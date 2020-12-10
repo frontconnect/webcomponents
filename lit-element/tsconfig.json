@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "strict": true,
+    "module": "es6",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "target": "es2017",
+    "lib": [
+      "es6",
+      "es2017",
+      "dom"
+    ],
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "types": [
+    "node_modules/@types"
+  ],
+  "compileOnSave": true,
+  "include": [
+    "*.ts",
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "scripts"
+  ]
+}
